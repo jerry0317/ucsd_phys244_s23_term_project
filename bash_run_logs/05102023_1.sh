@@ -1,6 +1,6 @@
 ## Directory: arepo
 
-srun --partition=shared --pty --account=csd759 --nodes=1 --ntasks-per-node=1 --cpus-per-task=16 --mem=64G -t 04:00:00 --wait=0 --export=ALL /bin/bash
+srun --partition=shared --pty --account=csd759 --nodes=1 --ntasks-per-node=2 --cpus-per-task=2 --mem=64G -t 04:00:00 --wait=0 --export=ALL /bin/bash
 
 # export SYSTYPE="Ubuntu"
 
