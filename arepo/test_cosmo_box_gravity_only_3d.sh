@@ -7,7 +7,7 @@
 
 ## Number of cores to compile and run the problem on
 ## use NUMBER_OF_TASKS=1 for 1d test problems!
-NUMBER_OF_TASKS=16
+NUMBER_OF_TASKS=2
 PLOT=False # create plots? True/False
 
 ## choose your examples
@@ -48,7 +48,7 @@ do
   fi
   
   ## change to RUNDIR in subshell and execute test simulation
-  (cd ${RUNDIR} && mpiexec -np ${NUMBER_OF_TASKS} ./Arepo ./param.txt)
+  (cd ${RUNDIR} && mpiexec -np ${NUMBER_OF_TASKS} --use-hwthread-cpus ./Arepo ./param.txt)
   ((return_value=$?))    ## get return value
   if [ $return_value != 0 ]    ## check return value
   then echo "ERROR: test.sh:\t" $DIR "\t execution failed!"
