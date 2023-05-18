@@ -7,7 +7,7 @@
 
 ## Number of cores to compile and run the problem on
 ## use NUMBER_OF_TASKS=1 for 1d test problems!
-NUMBER_OF_TASKS=$t
+NUMBER_OF_TASKS=$1
 PLOT=False # create plots? True/False
 
 ## choose your examples
