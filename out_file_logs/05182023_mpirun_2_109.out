@@ -1,0 +1,1092 @@
+./examples/cosmo_box_gravity_only_3d/
+create.py ./run/examples/cosmo_box_gravity_only_3d/
+Build configuration:
+SYSTYPE: "Ubuntu"
+CONFIG: ./run/examples/cosmo_box_gravity_only_3d//Config.sh
+EXEC: ./run/examples/cosmo_box_gravity_only_3d//Arepo
+
+Checking src/debug_md5/calc_checksum.c for illegal define macros
+Checking src/debug_md5/Md5.c for illegal define macros
+Checking src/domain/domain.c for illegal define macros
+Checking src/domain/domain_balance.c for illegal define macros
+Checking src/domain/domain_counttogo.c for illegal define macros
+Checking src/domain/domain_box.c for illegal define macros
+Checking src/domain/domain_DC_update.c for illegal define macros
+Checking src/domain/domain_rearrange.c for illegal define macros
+Checking src/domain/domain_exchange.c for illegal define macros
+Checking src/domain/domain_sort_kernels.c for illegal define macros
+Checking src/domain/domain_vars.c for illegal define macros
+Checking src/domain/domain_toplevel.c for illegal define macros
+Checking src/gravity/accel.c for illegal define macros
+Checking src/gravity/forcetree.c for illegal define macros
+Checking src/domain/peano.c for illegal define macros
+Checking src/gravity/forcetree_ewald.c for illegal define macros
+Checking src/gravity/forcetree_optimizebalance.c for illegal define macros
+Checking src/gravity/forcetree_walk.c for illegal define macros
+Checking src/gravity/grav_external.c for illegal define macros
+Checking src/gravity/grav_softening.c for illegal define macros
+Checking src/gravity/pm/pm_periodic2d.c for illegal define macros
+Checking src/gravity/longrange.c for illegal define macros
+Checking src/gravity/gravdirect.c for illegal define macros
+Checking src/gravity/gravtree.c for illegal define macros
+Checking src/gravity/pm/pm_nonperiodic.c for illegal define macros
+Checking src/hydro/finite_volume_solver.c for illegal define macros
+Checking src/gravity/pm/pm_periodic.c for illegal define macros
+Checking src/hydro/gradients.c for illegal define macros
+Checking src/hydro/riemann.c for illegal define macros
+Checking src/gravity/gravtree_forcetest.c for illegal define macros
+Checking src/gravity/pm/pm_mpi_fft.c for illegal define macros
+Checking src/hydro/riemann_hlld.c for illegal define macros
+Checking src/hydro/riemann_hllc.c for illegal define macros
+Checking src/hydro/scalars.c for illegal define macros
+Checking src/hydro/update_primitive_variables.c for illegal define macros
+Checking src/io/hdf5_util.c for illegal define macros
+Checking src/init/density.c for illegal define macros
+Checking src/io/global.c for illegal define macros
+Checking src/init/begrun.c for illegal define macros
+Checking src/init/init.c for illegal define macros
+Checking src/io/io_fields.c for illegal define macros
+Checking src/io/logs.c for illegal define macros
+Checking src/io/io.c for illegal define macros
+Checking src/main/allvars.c for illegal define macros
+Checking src/io/read_ic.c for illegal define macros
+Checking src/main/main.c for illegal define macros
+Checking src/io/parameters.c for illegal define macros
+Checking src/main/run.c for illegal define macros
+Checking src/io/restart.c for illegal define macros
+Checking src/mesh/criterion_derefinement.c for illegal define macros
+Checking src/mesh/voronoi/voronoi.c for illegal define macros
+Checking src/mesh/criterion_refinement.c for illegal define macros
+Checking src/mesh/refinement.c for illegal define macros
+Checking src/mesh/voronoi/voronoi_1d_spherical.c for illegal define macros
+Checking src/mpi_utils/checksummed_sendrecv.c for illegal define macros
+Checking src/mesh/set_vertex_velocities.c for illegal define macros
+Checking src/mesh/voronoi/voronoi_derefinement.c for illegal define macros
+Checking src/mesh/voronoi/voronoi_1d.c for illegal define macros
+Checking src/mesh/voronoi/voronoi_dynamic_update.c for illegal define macros
+Checking src/mpi_utils/mpi_util.c for illegal define macros
+Checking src/mpi_utils/hypercube_allgatherv.c for illegal define macros
+Checking src/mpi_utils/myalltoall.c for illegal define macros
+Checking src/mesh/voronoi/voronoi_gradients_lsf.c for illegal define macros
+Checking src/mesh/voronoi/voronoi_exchange.c for illegal define macros
+Checking src/mesh/voronoi/voronoi_gradients_onedims.c for illegal define macros
+Checking src/mpi_utils/sizelimited_sendrecv.c for illegal define macros
+Checking src/mesh/voronoi/voronoi_check.c for illegal define macros
+Checking src/mesh/voronoi/voronoi_utils.c for illegal define macros
+Checking src/mesh/voronoi/voronoi_ghost_search.c for illegal define macros
+Checking src/mesh/voronoi/voronoi_3d.c for illegal define macros
+Checking src/mesh/voronoi/voronoi_refinement.c for illegal define macros
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/debug_md5/calc_checksum.c -o run/examples/cosmo_box_gravity_only_3d//build/debug_md5/calc_checksum.o
+Checking src/time_integration/timestep_treebased.c for illegal define macros
+Checking src/ngbtree/ngbtree.c for illegal define macros
+Checking src/mpi_utils/pinning.c for illegal define macros
+Checking src/star_formation/sfr_eEOS.c for illegal define macros
+Checking src/ngbtree/ngbtree_search.c for illegal define macros
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/debug_md5/Md5.c -o run/examples/cosmo_box_gravity_only_3d//build/debug_md5/Md5.o
+Checking src/subfind/subfind_vars.c for illegal define macros
+Checking src/fof/fof_vars.c for illegal define macros
+Checking src/time_integration/predict.c for illegal define macros
+Checking src/time_integration/driftfac.c for illegal define macros
+Checking src/subfind/subfind_coll_tree.c for illegal define macros
+Checking src/ngbtree/ngbtree_walk.c for illegal define macros
+Checking src/fof/fof_nearest.c for illegal define macros
+Checking src/time_integration/do_gravity_hydro.c for illegal define macros
+Checking src/fof/fof.c for illegal define macros
+Checking src/fof/fof_findgroups.c for illegal define macros
+Checking src/time_integration/darkenergy.c for illegal define macros
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/domain/domain.c -o run/examples/cosmo_box_gravity_only_3d//build/domain/domain.o
+Checking src/subfind/subfind.c for illegal define macros
+Checking src/fof/fof_distribute.c for illegal define macros
+Checking src/utils/mymalloc.c for illegal define macros
+Checking src/subfind/subfind_collective.c for illegal define macros
+Checking src/time_integration/timestep.c for illegal define macros
+Checking src/utils/debug.c for illegal define macros
+Checking src/fof/fof_io.c for illegal define macros
+Checking src/utils/parallel_sort.c for illegal define macros
+Checking src/subfind/subfind_so.c for illegal define macros
+Checking src/utils/mpz_extension.c for illegal define macros
+Checking src/utils/system.c for illegal define macros
+Checking src/domain/bsd_tree.h for illegal define macros
+Checking src/utils/allocate.c for illegal define macros
+Checking src/subfind/subfind_findlinkngb.c for illegal define macros
+Checking src/fof/fof_sort_kernels.c for illegal define macros
+Checking src/star_formation/starformation.c for illegal define macros
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/domain/domain_balance.c -o run/examples/cosmo_box_gravity_only_3d//build/domain/domain_balance.o
+Checking src/subfind/subfind_distribute.c for illegal define macros
+Checking src/subfind/subfind_sort_kernels.c for illegal define macros
+Checking src/subfind/subfind_serial.c for illegal define macros
+Checking src/subfind/subfind_properties.c for illegal define macros
+Checking run/examples/cosmo_box_gravity_only_3d//build/arepoconfig.h for illegal define macros
+Checking src/subfind/subfind_nearesttwo.c for illegal define macros
+Checking src/debug_md5/Md5.h for illegal define macros
+Checking src/utils/timer.h for illegal define macros
+Checking src/utils/generic_comm_helpers2.h for illegal define macros
+Checking src/subfind/subfind_so_potegy.c for illegal define macros
+Checking src/subfind/subfind.h for illegal define macros
+Checking run/examples/cosmo_box_gravity_only_3d//build/compile_time_info_hdf5.c for illegal define macros
+Checking src/subfind/subfind_coll_domain.c for illegal define macros
+Checking src/subfind/subfind_loctree.c for illegal define macros
+Checking src/utils/dtypes.h for illegal define macros
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/domain/domain_box.c -o run/examples/cosmo_box_gravity_only_3d//build/domain/domain_box.o
+Checking src/fof/fof.h for illegal define macros
+Checking src/subfind/subfind_io.c for illegal define macros
+Checking Makefile for illegal define macros
+Checking src/subfind/subfind_density.c for illegal define macros
+Checking src/subfind/subfind_coll_treewalk.c for illegal define macros
+Checking run/examples/cosmo_box_gravity_only_3d//build/compile_time_info.c for illegal define macros
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/domain/domain_counttogo.c -o run/examples/cosmo_box_gravity_only_3d//build/domain/domain_counttogo.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/domain/domain_DC_update.c -o run/examples/cosmo_box_gravity_only_3d//build/domain/domain_DC_update.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/domain/domain_exchange.c -o run/examples/cosmo_box_gravity_only_3d//build/domain/domain_exchange.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/domain/domain_rearrange.c -o run/examples/cosmo_box_gravity_only_3d//build/domain/domain_rearrange.o
+Checking src/mesh/mesh.h for illegal define macros
+Checking src/domain/domain.h for illegal define macros
+Checking src/gitversion/version.h for illegal define macros
+Checking src/time_integration/timestep.h for illegal define macros
+Checking src/subfind/subfind_reprocess.c for illegal define macros
+Checking run/examples/cosmo_box_gravity_only_3d//build/version.c for illegal define macros
+Checking src/main/proto.h for illegal define macros
+Checking src/gravity/forcetree.h for illegal define macros
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/domain/domain_sort_kernels.c -o run/examples/cosmo_box_gravity_only_3d//build/domain/domain_sort_kernels.o
+Checking src/mesh/voronoi/voronoi.h for illegal define macros
+Checking src/main/allvars.h for illegal define macros
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/domain/domain_toplevel.c -o run/examples/cosmo_box_gravity_only_3d//build/domain/domain_toplevel.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/domain/domain_vars.c -o run/examples/cosmo_box_gravity_only_3d//build/domain/domain_vars.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/domain/peano.c -o run/examples/cosmo_box_gravity_only_3d//build/domain/peano.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/gravity/accel.c -o run/examples/cosmo_box_gravity_only_3d//build/gravity/accel.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/gravity/forcetree.c -o run/examples/cosmo_box_gravity_only_3d//build/gravity/forcetree.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/gravity/forcetree_ewald.c -o run/examples/cosmo_box_gravity_only_3d//build/gravity/forcetree_ewald.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/gravity/forcetree_optimizebalance.c -o run/examples/cosmo_box_gravity_only_3d//build/gravity/forcetree_optimizebalance.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/gravity/forcetree_walk.c -o run/examples/cosmo_box_gravity_only_3d//build/gravity/forcetree_walk.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/gravity/grav_external.c -o run/examples/cosmo_box_gravity_only_3d//build/gravity/grav_external.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/gravity/grav_softening.c -o run/examples/cosmo_box_gravity_only_3d//build/gravity/grav_softening.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/gravity/gravdirect.c -o run/examples/cosmo_box_gravity_only_3d//build/gravity/gravdirect.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/gravity/gravtree.c -o run/examples/cosmo_box_gravity_only_3d//build/gravity/gravtree.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/gravity/gravtree_forcetest.c -o run/examples/cosmo_box_gravity_only_3d//build/gravity/gravtree_forcetest.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/gravity/longrange.c -o run/examples/cosmo_box_gravity_only_3d//build/gravity/longrange.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/gravity/pm/pm_periodic2d.c -o run/examples/cosmo_box_gravity_only_3d//build/gravity/pm/pm_periodic2d.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/gravity/pm/pm_periodic.c -o run/examples/cosmo_box_gravity_only_3d//build/gravity/pm/pm_periodic.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/gravity/pm/pm_mpi_fft.c -o run/examples/cosmo_box_gravity_only_3d//build/gravity/pm/pm_mpi_fft.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/gravity/pm/pm_nonperiodic.c -o run/examples/cosmo_box_gravity_only_3d//build/gravity/pm/pm_nonperiodic.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/hydro/finite_volume_solver.c -o run/examples/cosmo_box_gravity_only_3d//build/hydro/finite_volume_solver.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/hydro/gradients.c -o run/examples/cosmo_box_gravity_only_3d//build/hydro/gradients.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/hydro/riemann.c -o run/examples/cosmo_box_gravity_only_3d//build/hydro/riemann.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/hydro/riemann_hllc.c -o run/examples/cosmo_box_gravity_only_3d//build/hydro/riemann_hllc.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/hydro/riemann_hlld.c -o run/examples/cosmo_box_gravity_only_3d//build/hydro/riemann_hlld.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/hydro/scalars.c -o run/examples/cosmo_box_gravity_only_3d//build/hydro/scalars.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/hydro/update_primitive_variables.c -o run/examples/cosmo_box_gravity_only_3d//build/hydro/update_primitive_variables.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/init/begrun.c -o run/examples/cosmo_box_gravity_only_3d//build/init/begrun.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/init/density.c -o run/examples/cosmo_box_gravity_only_3d//build/init/density.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/init/init.c -o run/examples/cosmo_box_gravity_only_3d//build/init/init.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/io/global.c -o run/examples/cosmo_box_gravity_only_3d//build/io/global.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/io/hdf5_util.c -o run/examples/cosmo_box_gravity_only_3d//build/io/hdf5_util.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/io/io.c -o run/examples/cosmo_box_gravity_only_3d//build/io/io.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/io/io_fields.c -o run/examples/cosmo_box_gravity_only_3d//build/io/io_fields.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/io/logs.c -o run/examples/cosmo_box_gravity_only_3d//build/io/logs.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/io/parameters.c -o run/examples/cosmo_box_gravity_only_3d//build/io/parameters.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/io/read_ic.c -o run/examples/cosmo_box_gravity_only_3d//build/io/read_ic.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/io/restart.c -o run/examples/cosmo_box_gravity_only_3d//build/io/restart.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/main/allvars.c -o run/examples/cosmo_box_gravity_only_3d//build/main/allvars.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/main/main.c -o run/examples/cosmo_box_gravity_only_3d//build/main/main.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/main/run.c -o run/examples/cosmo_box_gravity_only_3d//build/main/run.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/criterion_derefinement.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/criterion_derefinement.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/criterion_refinement.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/criterion_refinement.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/refinement.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/refinement.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/set_vertex_velocities.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/set_vertex_velocities.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/voronoi/voronoi.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/voronoi/voronoi_1d.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_1d.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/voronoi/voronoi_1d_spherical.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_1d_spherical.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/voronoi/voronoi_3d.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_3d.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/voronoi/voronoi_check.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_check.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/voronoi/voronoi_derefinement.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_derefinement.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/voronoi/voronoi_dynamic_update.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_dynamic_update.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/voronoi/voronoi_exchange.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_exchange.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/voronoi/voronoi_ghost_search.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_ghost_search.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/voronoi/voronoi_gradients_lsf.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_gradients_lsf.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/voronoi/voronoi_gradients_onedims.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_gradients_onedims.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/voronoi/voronoi_refinement.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_refinement.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mesh/voronoi/voronoi_utils.c -o run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_utils.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mpi_utils/checksummed_sendrecv.c -o run/examples/cosmo_box_gravity_only_3d//build/mpi_utils/checksummed_sendrecv.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mpi_utils/hypercube_allgatherv.c -o run/examples/cosmo_box_gravity_only_3d//build/mpi_utils/hypercube_allgatherv.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mpi_utils/mpi_util.c -o run/examples/cosmo_box_gravity_only_3d//build/mpi_utils/mpi_util.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mpi_utils/myalltoall.c -o run/examples/cosmo_box_gravity_only_3d//build/mpi_utils/myalltoall.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mpi_utils/sizelimited_sendrecv.c -o run/examples/cosmo_box_gravity_only_3d//build/mpi_utils/sizelimited_sendrecv.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/mpi_utils/pinning.c -o run/examples/cosmo_box_gravity_only_3d//build/mpi_utils/pinning.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/ngbtree/ngbtree.c -o run/examples/cosmo_box_gravity_only_3d//build/ngbtree/ngbtree.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/ngbtree/ngbtree_search.c -o run/examples/cosmo_box_gravity_only_3d//build/ngbtree/ngbtree_search.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/ngbtree/ngbtree_walk.c -o run/examples/cosmo_box_gravity_only_3d//build/ngbtree/ngbtree_walk.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/star_formation/sfr_eEOS.c -o run/examples/cosmo_box_gravity_only_3d//build/star_formation/sfr_eEOS.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/star_formation/starformation.c -o run/examples/cosmo_box_gravity_only_3d//build/star_formation/starformation.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/time_integration/darkenergy.c -o run/examples/cosmo_box_gravity_only_3d//build/time_integration/darkenergy.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/time_integration/do_gravity_hydro.c -o run/examples/cosmo_box_gravity_only_3d//build/time_integration/do_gravity_hydro.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/time_integration/driftfac.c -o run/examples/cosmo_box_gravity_only_3d//build/time_integration/driftfac.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/time_integration/predict.c -o run/examples/cosmo_box_gravity_only_3d//build/time_integration/predict.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/time_integration/timestep.c -o run/examples/cosmo_box_gravity_only_3d//build/time_integration/timestep.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/time_integration/timestep_treebased.c -o run/examples/cosmo_box_gravity_only_3d//build/time_integration/timestep_treebased.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/utils/allocate.c -o run/examples/cosmo_box_gravity_only_3d//build/utils/allocate.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/utils/debug.c -o run/examples/cosmo_box_gravity_only_3d//build/utils/debug.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/utils/mpz_extension.c -o run/examples/cosmo_box_gravity_only_3d//build/utils/mpz_extension.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/utils/mymalloc.c -o run/examples/cosmo_box_gravity_only_3d//build/utils/mymalloc.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/utils/parallel_sort.c -o run/examples/cosmo_box_gravity_only_3d//build/utils/parallel_sort.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/utils/system.c -o run/examples/cosmo_box_gravity_only_3d//build/utils/system.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/fof/fof.c -o run/examples/cosmo_box_gravity_only_3d//build/fof/fof.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/fof/fof_distribute.c -o run/examples/cosmo_box_gravity_only_3d//build/fof/fof_distribute.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/fof/fof_findgroups.c -o run/examples/cosmo_box_gravity_only_3d//build/fof/fof_findgroups.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/fof/fof_io.c -o run/examples/cosmo_box_gravity_only_3d//build/fof/fof_io.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/fof/fof_nearest.c -o run/examples/cosmo_box_gravity_only_3d//build/fof/fof_nearest.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/fof/fof_sort_kernels.c -o run/examples/cosmo_box_gravity_only_3d//build/fof/fof_sort_kernels.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/fof/fof_vars.c -o run/examples/cosmo_box_gravity_only_3d//build/fof/fof_vars.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_vars.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_vars.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_serial.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_serial.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_coll_tree.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_coll_tree.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_properties.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_properties.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_so.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_so.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_distribute.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_distribute.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_collective.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_collective.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_findlinkngb.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_findlinkngb.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_nearesttwo.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_nearesttwo.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_loctree.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_loctree.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_coll_domain.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_coll_domain.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_coll_treewalk.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_coll_treewalk.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_density.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_density.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_io.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_io.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_sort_kernels.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_sort_kernels.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_reprocess.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_reprocess.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c src/subfind/subfind_so_potegy.c -o run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_so_potegy.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c run/examples/cosmo_box_gravity_only_3d//build/compile_time_info.c -o run/examples/cosmo_box_gravity_only_3d//build/compile_time_info.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build -c run/examples/cosmo_box_gravity_only_3d//build/compile_time_info_hdf5.c -o run/examples/cosmo_box_gravity_only_3d//build/compile_time_info_hdf5.o
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function -I/usr/lib/x86_64-linux-gnu/openmpi/include/ -I/usr/include/hdf5/serial/ -DH5_USE_16_API    -I./run/examples/cosmo_box_gravity_only_3d//build   -c -o run/examples/cosmo_box_gravity_only_3d//build/version.o run/examples/cosmo_box_gravity_only_3d//build/version.c
+src/gravity/pm/pm_mpi_fft.c: In function 'my_slab_based_fft_c2c':
+src/gravity/pm/pm_mpi_fft.c:520:10: warning: unused variable 'ngridz_long' [-Wunused-variable]
+  520 |   size_t ngridz_long = ngridz;
+      |          ^~~~~~~~~~~
+src/gravity/pm/pm_periodic.c:165:18: warning: 'power_spec_totnumpart' defined but not used [-Wunused-variable]
+  165 | static long long power_spec_totnumpart;
+      |                  ^~~~~~~~~~~~~~~~~~~~~
+src/gravity/pm/pm_periodic.c:164:35: warning: 'power_spec_totmass2' defined but not used [-Wunused-variable]
+  164 | static double power_spec_totmass, power_spec_totmass2;
+      |                                   ^~~~~~~~~~~~~~~~~~~
+src/gravity/pm/pm_periodic.c:164:15: warning: 'power_spec_totmass' defined but not used [-Wunused-variable]
+  164 | static double power_spec_totmass, power_spec_totmass2;
+      |               ^~~~~~~~~~~~~~~~~~
+src/main/main.c: In function 'main':
+src/main/main.c:205:31: warning: '%s' directive writing up to 255 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  205 |             sprintf(fname, "%s%s_%03d", All.OutputDir, All.SnapshotFileBase, RestartSnapNum);
+      |                               ^~                       ~~~~~~~~~~~~~~~~~~~~
+src/main/main.c:205:28: note: directive argument in the range [0, 2147483647]
+  205 |             sprintf(fname, "%s%s_%03d", All.OutputDir, All.SnapshotFileBase, RestartSnapNum);
+      |                            ^~~~~~~~~~~
+src/main/main.c:205:13: note: 'sprintf' output between 5 and 522 bytes into a destination of size 256
+  205 |             sprintf(fname, "%s%s_%03d", All.OutputDir, All.SnapshotFileBase, RestartSnapNum);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/main/main.c:203:31: warning: '/snapdir_' directive writing 9 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  203 |             sprintf(fname, "%s/snapdir_%03d/%s_%03d", All.OutputDir, RestartSnapNum, All.SnapshotFileBase, RestartSnapNum);
+      |                               ^~~~~~~~~
+src/main/main.c:203:28: note: directive argument in the range [0, 2147483647]
+  203 |             sprintf(fname, "%s/snapdir_%03d/%s_%03d", All.OutputDir, RestartSnapNum, All.SnapshotFileBase, RestartSnapNum);
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/main/main.c:203:28: note: directive argument in the range [0, 2147483647]
+src/main/main.c:203:13: note: 'sprintf' output between 18 and 542 bytes into a destination of size 256
+  203 |             sprintf(fname, "%s/snapdir_%03d/%s_%03d", All.OutputDir, RestartSnapNum, All.SnapshotFileBase, RestartSnapNum);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/main/main.c:234:44: warning: '_converted' directive writing 10 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  234 |           sprintf(All.SnapshotFileBase, "%s_converted", All.SnapshotFileBase);
+      |                                            ^~~~~~~~~~
+src/main/main.c:234:11: note: 'sprintf' output between 11 and 266 bytes into a destination of size 256
+  234 |           sprintf(All.SnapshotFileBase, "%s_converted", All.SnapshotFileBase);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/main/main.c:234:11: warning: 'sprintf' argument 3 overlaps destination object 'All' [-Wrestrict]
+In file included from src/main/main.c:40:
+src/main/../main/allvars.h:1211:3: note: destination object referenced by 'restrict'-qualified argument 1 was declared here
+ 1211 | } All;
+      |   ^~~
+src/mesh/voronoi/voronoi_gradients_lsf.c: In function 'limit_gradients':
+src/mesh/voronoi/voronoi_gradients_lsf.c:756:29: warning: unused variable 'data' [-Wunused-variable]
+  756 |                   MySingle *data;
+      |                             ^~~~
+src/mesh/voronoi/voronoi_gradients_lsf.c:755:26: warning: unused variable 'value' [-Wunused-variable]
+  755 |                   double value;
+      |                          ^~~~~
+src/init/init.c: In function 'init':
+src/init/init.c:560:40: warning: unused variable 'zmax' [-Wunused-variable]
+  560 |   double xmin, xmax, ymin, ymax, zmin, zmax;
+      |                                        ^~~~
+src/init/init.c:560:34: warning: unused variable 'zmin' [-Wunused-variable]
+  560 |   double xmin, xmax, ymin, ymax, zmin, zmax;
+      |                                  ^~~~
+src/init/init.c:560:28: warning: unused variable 'ymax' [-Wunused-variable]
+  560 |   double xmin, xmax, ymin, ymax, zmin, zmax;
+      |                            ^~~~
+src/init/init.c:560:22: warning: unused variable 'ymin' [-Wunused-variable]
+  560 |   double xmin, xmax, ymin, ymax, zmin, zmax;
+      |                      ^~~~
+src/init/init.c:560:16: warning: unused variable 'xmax' [-Wunused-variable]
+  560 |   double xmin, xmax, ymin, ymax, zmin, zmax;
+      |                ^~~~
+src/init/init.c:560:10: warning: unused variable 'xmin' [-Wunused-variable]
+  560 |   double xmin, xmax, ymin, ymax, zmin, zmax;
+      |          ^~~~
+src/init/init.c:559:28: warning: unused variable 'weight_flag' [-Wunused-variable]
+  559 |   int xaxis, yaxis, zaxis, weight_flag = 0;
+      |                            ^~~~~~~~~~~
+src/init/init.c:559:21: warning: unused variable 'zaxis' [-Wunused-variable]
+  559 |   int xaxis, yaxis, zaxis, weight_flag = 0;
+      |                     ^~~~~
+src/init/init.c:559:14: warning: unused variable 'yaxis' [-Wunused-variable]
+  559 |   int xaxis, yaxis, zaxis, weight_flag = 0;
+      |              ^~~~~
+src/init/init.c:559:7: warning: unused variable 'xaxis' [-Wunused-variable]
+  559 |   int xaxis, yaxis, zaxis, weight_flag = 0;
+      |       ^~~~~
+src/init/init.c:169:7: warning: unused variable 'nonzero_vel' [-Wunused-variable]
+  169 |   int nonzero_vel = 0;
+      |       ^~~~~~~~~~~
+src/init/init.c:376:40: warning: '_potupdated' directive writing 11 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  376 |       sprintf(All.SnapshotFileBase, "%s_potupdated", All.SnapshotFileBase);
+      |                                        ^~~~~~~~~~~
+src/init/init.c:376:7: note: 'sprintf' output between 12 and 267 bytes into a destination of size 256
+  376 |       sprintf(All.SnapshotFileBase, "%s_potupdated", All.SnapshotFileBase);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/init/init.c:376:7: warning: 'sprintf' argument 3 overlaps destination object 'All' [-Wrestrict]
+In file included from src/init/init.c:43:
+src/init/../main/allvars.h:1211:3: note: destination object referenced by 'restrict'-qualified argument 1 was declared here
+ 1211 | } All;
+      |   ^~~
+Checking active options of ./run/examples/cosmo_box_gravity_only_3d//Config.sh
+src/fof/fof_io.c: In function 'fof_subfind_get_Tab_IO_Label':
+src/fof/fof_io.c:2660:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2660 |         strncpy(label, "FLEN", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2663:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2663 |         strncpy(label, "FMAS", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2666:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2666 |         strncpy(label, "FPOS", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2669:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2669 |         strncpy(label, "FGCM", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2672:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2672 |         strncpy(label, "FVEL", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2675:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2675 |         strncpy(label, "FLTY", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2678:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2678 |         strncpy(label, "FMTY", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2681:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2681 |         strncpy(label, "FSFR", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2684:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2684 |         strncpy(label, "FMM2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2687:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2687 |         strncpy(label, "FRM2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2690:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2690 |         strncpy(label, "FMC2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2693:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2693 |         strncpy(label, "FRC2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2696:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2696 |         strncpy(label, "FMT2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2699:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2699 |         strncpy(label, "FRT2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2702:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2702 |         strncpy(label, "FMC5", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2705:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2705 |         strncpy(label, "FRC5", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2708:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2708 |         strncpy(label, "FNSH", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2711:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2711 |         strncpy(label, "FFSH", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2714:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2714 |         strncpy(label, "FUOF", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2718:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2718 |         strncpy(label, "SLEN", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2721:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2721 |         strncpy(label, "SMAS", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2724:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2724 |         strncpy(label, "SPOS", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2727:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2727 |         strncpy(label, "SVEL", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2730:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2730 |         strncpy(label, "SLTY", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2733:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2733 |         strncpy(label, "SMTY", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2736:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2736 |         strncpy(label, "SCMP", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/subfind/subfind_so.c: In function 'subfind_overdensity_evaluate.constprop.isra':
+src/fof/fof_io.c:2739:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2739 |         strncpy(label, "SSPI", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/subfind/subfind_so.c:825:27: warning: 'Jtot[0]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  825 |                   if((Jtot[0] * jpart[0] + Jtot[1] * jpart[1] + Jtot[2] * jpart[2]) < 0.)
+      |                       ~~~~^~~
+src/fof/fof_io.c:2742:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2742 |         strncpy(label, "SVDI", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/subfind/subfind_so.c:825:48: warning: 'Jtot[1]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  825 |                   if((Jtot[0] * jpart[0] + Jtot[1] * jpart[1] + Jtot[2] * jpart[2]) < 0.)
+      |                                            ~~~~^~~
+src/fof/fof_io.c:2745:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2745 |         strncpy(label, "SVMX", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/subfind/subfind_so.c:825:69: warning: 'Jtot[2]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  825 |                   if((Jtot[0] * jpart[0] + Jtot[1] * jpart[1] + Jtot[2] * jpart[2]) < 0.)
+      |                                                                 ~~~~^~~
+src/fof/fof_io.c:2748:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2748 |         strncpy(label, "SVRX", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2751:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2751 |         strncpy(label, "SHMR", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2754:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2754 |         strncpy(label, "SHMT", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2757:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2757 |         strncpy(label, "SMIR", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/main/run.c: In function 'check_for_interruption_of_run':
+src/io/parameters.c: In function 'read_parameter_file':
+src/fof/fof_io.c:2760:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2760 |         strncpy(label, "SMIH", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/main/run.c:421:29: warning: 'stop' directive writing 4 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  421 |       sprintf(stopfname, "%sstop", All.OutputDir);
+      |                             ^~~~
+src/io/logs.c: In function 'open_logfiles':
+src/io/parameters.c:604:36: warning: '%s' directive writing up to 399 bytes into a region of size between 397 and 646 [-Wformat-overflow=]
+  604 |               sprintf(buf3, "cp %s %s", buf1, buf2);
+      |                                    ^~         ~~~~
+src/fof/fof_io.c:2763:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2763 |         strncpy(label, "SMIM", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/main/run.c:421:7: note: 'sprintf' output between 5 and 260 bytes into a destination of size 256
+  421 |       sprintf(stopfname, "%sstop", All.OutputDir);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/parameters.c:604:15: note: 'sprintf' output between 5 and 653 bytes into a destination of size 650
+  604 |               sprintf(buf3, "cp %s %s", buf1, buf2);
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/logs.c:145:44: warning: '%s' directive writing up to 999 bytes into a region of size 977 [-Wformat-overflow=]
+  145 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |                                            ^~      ~~~
+src/io/logs.c:145:7: note: 'sprintf' output between 26 and 1025 bytes into a destination of size 1000
+  145 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/main/run.c:430:29: warning: 'restart' directive writing 7 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  430 |       sprintf(stopfname, "%srestart", All.OutputDir);
+      |                             ^~~~~~~
+src/main/run.c:430:7: note: 'sprintf' output between 8 and 263 bytes into a destination of size 256
+  430 |       sprintf(stopfname, "%srestart", All.OutputDir);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/logs.c:138:44: warning: '%s' directive writing up to 999 bytes into a region of size 977 [-Wformat-overflow=]
+  138 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |                                            ^~      ~~~
+src/io/logs.c:138:7: note: 'sprintf' output between 26 and 1025 bytes into a destination of size 1000
+  138 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/main/run.c:461:33: warning: 'cont' directive writing 4 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  461 |           sprintf(contfname, "%scont", All.OutputDir);
+      |                                 ^~~~
+src/io/logs.c:131:44: warning: '%s' directive writing up to 999 bytes into a region of size 977 [-Wformat-overflow=]
+  131 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |                                            ^~      ~~~
+src/io/logs.c:131:7: note: 'sprintf' output between 26 and 1025 bytes into a destination of size 1000
+  131 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/main/run.c:461:11: note: 'sprintf' output between 5 and 260 bytes into a destination of size 256
+  461 |           sprintf(contfname, "%scont", All.OutputDir);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/logs.c:124:44: warning: '%s' directive writing up to 999 bytes into a region of size 977 [-Wformat-overflow=]
+  124 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |                                            ^~      ~~~
+src/io/logs.c:124:7: note: 'sprintf' output between 26 and 1025 bytes into a destination of size 1000
+  124 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/logs.c:117:44: warning: '%s' directive writing up to 999 bytes into a region of size 977 [-Wformat-overflow=]
+  117 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |                                            ^~      ~~~
+src/io/logs.c:117:7: note: 'sprintf' output between 26 and 1025 bytes into a destination of size 1000
+  117 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/logs.c:110:44: warning: '%s' directive writing up to 999 bytes into a region of size 977 [-Wformat-overflow=]
+  110 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |                                            ^~      ~~~
+src/fof/fof_io.c:2766:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2766 |         strncpy(label, "SMIT", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/logs.c:110:7: note: 'sprintf' output between 26 and 1025 bytes into a destination of size 1000
+  110 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/logs.c:103:44: warning: '%s' directive writing up to 999 bytes into a region of size 977 [-Wformat-overflow=]
+  103 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |                                            ^~      ~~~
+src/io/logs.c:103:7: note: 'sprintf' output between 26 and 1025 bytes into a destination of size 1000
+  103 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/logs.c:96:44: warning: '%s' directive writing up to 999 bytes into a region of size 977 [-Wformat-overflow=]
+   96 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |                                            ^~      ~~~
+src/io/logs.c:96:7: note: 'sprintf' output between 26 and 1025 bytes into a destination of size 1000
+   96 |       sprintf(msg, "error in opening file '%s'\n", buf);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/parameters.c:663:11: warning: 'strncpy' specified bound 50 equals destination size [-Wstringop-truncation]
+  663 |           strncpy(Parameters[i], tag[i], MAXLEN_PARAM_TAG);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/parameters.c:672:17: warning: 'strncpy' specified bound 200 equals destination size [-Wstringop-truncation]
+  672 |                 strncpy(tmp, addr[i], MAXLEN_PARAM_VALUE);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2769:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2769 |         strncpy(label, "SMHT", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2772:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2772 |         strncpy(label, "SMMT", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2775:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2775 |         strncpy(label, "SIDM", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2778:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2778 |         strncpy(label, "SGNR", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2781:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2781 |         strncpy(label, "SPRT", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2784:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2784 |         strncpy(label, "BFDH", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2787:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2787 |         strncpy(label, "BFDD", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2790:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2790 |         strncpy(label, "SSFR", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2793:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2793 |         strncpy(label, "SSFI", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2796:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2796 |         strncpy(label, "SSFH", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2799:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2799 |         strncpy(label, "SSFM", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2802:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2802 |         strncpy(label, "PIDS", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2807:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2807 |         strncpy(label, "FJM2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2810:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2810 |         strncpy(label, "JDM2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2813:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2813 |         strncpy(label, "JGM2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2816:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2816 |         strncpy(label, "JSM2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/main/run.c: In function 'run':
+src/fof/fof_io.c:2819:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2819 |         strncpy(label, "MTM2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/main/run.c:644:25: warning: 'end' directive writing 3 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  644 |   sprintf(contfname, "%send", All.OutputDir);
+      |                         ^~~
+src/subfind/subfind_so.c: In function 'subfind_overdensity':
+src/fof/fof_io.c:2822:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2822 |         strncpy(label, "LTM2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/main/run.c:644:3: note: 'sprintf' output between 4 and 259 bytes into a destination of size 256
+  644 |   sprintf(contfname, "%send", All.OutputDir);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/subfind/subfind_so.c:825:27: warning: 'Jtot[0]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  825 |                   if((Jtot[0] * jpart[0] + Jtot[1] * jpart[1] + Jtot[2] * jpart[2]) < 0.)
+      |                       ~~~~^~~
+src/fof/fof_io.c:2825:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2825 |         strncpy(label, "CFM2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/subfind/subfind_so.c:825:48: warning: 'Jtot[1]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  825 |                   if((Jtot[0] * jpart[0] + Jtot[1] * jpart[1] + Jtot[2] * jpart[2]) < 0.)
+      |                                            ~~~~^~~
+src/fof/fof_io.c:2828:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2828 |         strncpy(label, "FTM2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/subfind/subfind_so.c:825:69: warning: 'Jtot[2]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  825 |                   if((Jtot[0] * jpart[0] + Jtot[1] * jpart[1] + Jtot[2] * jpart[2]) < 0.)
+      |                                                                 ~~~~^~~
+src/fof/fof_io.c:2831:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2831 |         strncpy(label, "FJC2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2834:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2834 |         strncpy(label, "JDC2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2837:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2837 |         strncpy(label, "JGC2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2840:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2840 |         strncpy(label, "JSC2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2843:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2843 |         strncpy(label, "MTC2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2846:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2846 |         strncpy(label, "LTC2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2849:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2849 |         strncpy(label, "CFC2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2852:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2852 |         strncpy(label, "FTC2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2855:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2855 |         strncpy(label, "FJT2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2858:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2858 |         strncpy(label, "JDT2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2861:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2861 |         strncpy(label, "JGT2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2864:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2864 |         strncpy(label, "JST2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2867:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2867 |         strncpy(label, "MTT2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2870:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2870 |         strncpy(label, "LTT2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2873:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2873 |         strncpy(label, "CFT2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2876:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2876 |         strncpy(label, "FTT2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2879:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2879 |         strncpy(label, "FJC5", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2882:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2882 |         strncpy(label, "JDC5", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2885:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2885 |         strncpy(label, "JGC5", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2888:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2888 |         strncpy(label, "JSC5", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2891:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2891 |         strncpy(label, "MTC5", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2894:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2894 |         strncpy(label, "LTC5", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2897:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2897 |         strncpy(label, "CFC5", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2900:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2900 |         strncpy(label, "FTC5", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2903:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2903 |         strncpy(label, "FOFJ", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2906:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2906 |         strncpy(label, "FOJD", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2909:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2909 |         strncpy(label, "FOJG", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2912:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2912 |         strncpy(label, "FOJS", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2915:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2915 |         strncpy(label, "FOCF", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2918:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2918 |         strncpy(label, "FOFT", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2921:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2921 |         strncpy(label, "EKIN", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2924:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2924 |         strncpy(label, "ETHR", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2927:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2927 |         strncpy(label, "EPOT", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2931:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2931 |         strncpy(label, "EPO1", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2934:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2934 |         strncpy(label, "EKI1", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2937:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2937 |         strncpy(label, "ETH1", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2940:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2940 |         strncpy(label, "EPO2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2943:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2943 |         strncpy(label, "EKI2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2946:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2946 |         strncpy(label, "ETH2", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2949:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2949 |         strncpy(label, "EPO3", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2952:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2952 |         strncpy(label, "EKI3", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2955:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2955 |         strncpy(label, "ETH3", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2958:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2958 |         strncpy(label, "EPO4", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2961:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2961 |         strncpy(label, "EKI4", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2964:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2964 |         strncpy(label, "ETH4", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2968:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2968 |         strncpy(label, "SEKN", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2971:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2971 |         strncpy(label, "SETH", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2974:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2974 |         strncpy(label, "SEPT", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2977:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2977 |         strncpy(label, "SUBJ", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2980:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2980 |         strncpy(label, "SJDM", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2983:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2983 |         strncpy(label, "SJGS", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2986:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2986 |         strncpy(label, "SJST", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2989:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2989 |         strncpy(label, "SJHR", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2992:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2992 |         strncpy(label, "SJDH", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2995:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2995 |         strncpy(label, "SJGH", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:2998:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 2998 |         strncpy(label, "SJSH", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:3001:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 3001 |         strncpy(label, "SJMR", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:3004:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 3004 |         strncpy(label, "SJDR", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:3007:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 3007 |         strncpy(label, "SJGR", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:3010:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 3010 |         strncpy(label, "SJSR", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:3013:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 3013 |         strncpy(label, "SCMF", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:3016:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 3016 |         strncpy(label, "SCMT", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:3019:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 3019 |         strncpy(label, "SCMH", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:3022:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 3022 |         strncpy(label, "SCTH", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:3025:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 3025 |         strncpy(label, "SCMR", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/fof/fof_io.c:3028:9: warning: 'strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+ 3028 |         strncpy(label, "SCTR", 4);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+src/gravity/forcetree.c: In function 'construct_forcetree':
+src/gravity/forcetree.c:144:23: warning: 'npart' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  144 |       Tree_NumNodes = force_treebuild(npart, optimized_domain_mapping, insert_only_primary, timebin);
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/io.c: In function 'init_field':
+src/io/io.c:158:3: warning: 'strncpy' specified bound 4 equals destination size [-Wstringop-truncation]
+  158 |   strncpy(IO_Fields[N_IO_Fields].label, label, 4);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/io.c:159:3: warning: 'strncpy' specified bound 256 equals destination size [-Wstringop-truncation]
+  159 |   strncpy(IO_Fields[N_IO_Fields].datasetname, datasetname, 256);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/io.c: In function 'savepositions':
+src/io/io.c:449:43: warning: '%s' directive writing up to 255 bytes into a region of size between 224 and 487 [-Wformat-overflow=]
+  449 |             sprintf(buf, "%s/snapdir_%03d/%s_%03d.%d", All.OutputDir, num, All.SnapshotFileBase, num, filenr);
+      |                                           ^~                               ~~~~~~~~~~~~~~~~~~~~
+src/io/io.c:449:13: note: 'sprintf' output between 20 and 556 bytes into a destination of size 500
+  449 |             sprintf(buf, "%s/snapdir_%03d/%s_%03d.%d", All.OutputDir, num, All.SnapshotFileBase, num, filenr);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/io.c:451:29: warning: '%s' directive writing up to 255 bytes into a region of size between 245 and 500 [-Wformat-overflow=]
+  451 |             sprintf(buf, "%s%s_%03d", All.OutputDir, All.SnapshotFileBase, num);
+      |                             ^~                       ~~~~~~~~~~~~~~~~~~~~
+src/io/io.c:451:13: note: 'sprintf' output between 5 and 523 bytes into a destination of size 500
+  451 |             sprintf(buf, "%s%s_%03d", All.OutputDir, All.SnapshotFileBase, num);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/io.c:466:33: warning: '%s' directive writing up to 255 bytes into a region of size between 245 and 500 [-Wformat-overflow=]
+  466 |                 sprintf(buf, "%s%s-groupordered_%03d", All.OutputDir, All.SnapshotFileBase, num);
+      |                                 ^~                                    ~~~~~~~~~~~~~~~~~~~~
+src/io/io.c:466:17: note: 'sprintf' output between 18 and 536 bytes into a destination of size 500
+  466 |                 sprintf(buf, "%s%s-groupordered_%03d", All.OutputDir, All.SnapshotFileBase, num);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/io.c:464:47: warning: '%s' directive writing up to 255 bytes into a region of size between 224 and 487 [-Wformat-overflow=]
+  464 |                 sprintf(buf, "%s/snapdir_%03d/%s-groupordered_%03d.%d", All.OutputDir, num, All.SnapshotFileBase, num, filenr);
+      |                                               ^~                                            ~~~~~~~~~~~~~~~~~~~~
+src/io/io.c:464:17: note: 'sprintf' output between 33 and 569 bytes into a destination of size 500
+  464 |                 sprintf(buf, "%s/snapdir_%03d/%s-groupordered_%03d.%d", All.OutputDir, num, All.SnapshotFileBase, num, filenr);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from src/io/restart.c:74:
+src/io/restart.c: In function 'check_restart_files':
+src/io/restart.c:531:17: warning: '%s' directive writing up to 9999 bytes into a region of size 985 [-Wformat-overflow=]
+  531 |       terminate("RESTART: file '%s' has MD5 hash of '%s', does not match expected hash '%s' or written hash '%s'.", newname, str_has,
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~
+src/io/../main/allvars.h:180:27: note: in definition of macro 'terminate'
+  180 |         sprintf(termbuf2, __VA_ARGS__);                                                                                           \
+      |                           ^~~~~~~~~~~
+src/io/restart.c:531:33: note: format string is defined here
+  531 |       terminate("RESTART: file '%s' has MD5 hash of '%s', does not match expected hash '%s' or written hash '%s'.", newname, str_has,
+      |                                 ^~
+In file included from src/io/restart.c:74:
+src/io/../main/allvars.h:180:9: note: 'sprintf' output between 89 and 10229 bytes into a destination of size 1000
+  180 |         sprintf(termbuf2, __VA_ARGS__);                                                                                           \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/restart.c:531:7: note: in expansion of macro 'terminate'
+  531 |       terminate("RESTART: file '%s' has MD5 hash of '%s', does not match expected hash '%s' or written hash '%s'.", newname, str_has,
+      |       ^~~~~~~~~
+src/io/restart.c: In function 'work_files':
+src/io/restart.c:364:19: warning: '/restartfiles/' directive writing 14 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |                   ^~~~~~~~~~~~~~
+src/io/restart.c:364:3: note: 'sprintf' output between 24 and 289 bytes into a destination of size 256
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/restart.c:364:19: warning: '/restartfiles/' directive writing 14 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |                   ^~~~~~~~~~~~~~
+src/io/restart.c:364:16: note: directive argument in the range [-2147483647, 2147483647]
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+src/io/restart.c:364:3: note: 'sprintf' output between 24 and 289 bytes into a destination of size 256
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/restart.c:364:19: warning: '/restartfiles/' directive writing 14 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |                   ^~~~~~~~~~~~~~
+src/io/restart.c:364:3: note: 'sprintf' output between 24 and 289 bytes into a destination of size 256
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/restart.c:364:19: warning: '/restartfiles/' directive writing 14 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |                   ^~~~~~~~~~~~~~
+src/io/restart.c:364:3: note: 'sprintf' output between 24 and 289 bytes into a destination of size 256
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/restart.c:364:19: warning: '/restartfiles/' directive writing 14 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |                   ^~~~~~~~~~~~~~
+src/io/restart.c:364:3: note: 'sprintf' output between 24 and 289 bytes into a destination of size 256
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/restart.c:364:19: warning: '/restartfiles/' directive writing 14 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |                   ^~~~~~~~~~~~~~
+src/io/restart.c:364:3: note: 'sprintf' output between 24 and 289 bytes into a destination of size 256
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/restart.c:364:19: warning: '/restartfiles/' directive writing 14 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |                   ^~~~~~~~~~~~~~
+src/io/restart.c:364:16: note: directive argument in the range [-2147483647, 2147483647]
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+src/io/restart.c:364:3: note: 'sprintf' output between 24 and 289 bytes into a destination of size 256
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/restart.c: In function 'restart':
+src/io/restart.c:342:19: warning: '/restartfiles' directive writing 13 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  342 |   sprintf(buf, "%s/restartfiles", All.OutputDir);
+      |                   ^~~~~~~~~~~~~
+src/io/restart.c:342:3: note: 'sprintf' output between 14 and 269 bytes into a destination of size 256
+  342 |   sprintf(buf, "%s/restartfiles", All.OutputDir);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/restart.c:364:19: warning: '/restartfiles/' directive writing 14 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |                   ^~~~~~~~~~~~~~
+src/io/restart.c:364:3: note: 'sprintf' output between 24 and 289 bytes into a destination of size 256
+  364 |   sprintf(buf, "%s/restartfiles/%s.%d", All.OutputDir, "restart", task);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/io/restart.c:397:23: warning: '/restartfiles/bak-' directive writing 18 bytes into a region of size between 1 and 256 [-Wformat-overflow=]
+  397 |   sprintf(buf_bak, "%s/restartfiles/bak-%s.%d", All.OutputDir, "restart", ThisTask);
+      |                       ^~~~~~~~~~~~~~~~~~
+src/io/restart.c:397:3: note: 'sprintf' output between 28 and 293 bytes into a destination of size 256
+  397 |   sprintf(buf_bak, "%s/restartfiles/bak-%s.%d", All.OutputDir, "restart", ThisTask);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-n7su7jf54rc7l2ozegds5xksy6qhrjin/bin/gcc -std=c11 -ggdb -O3 -Wall -Wno-format-security -Wno-unknown-pragmas -Wno-unused-function ./run/examples/cosmo_box_gravity_only_3d//build/debug_md5/calc_checksum.o ./run/examples/cosmo_box_gravity_only_3d//build/debug_md5/Md5.o ./run/examples/cosmo_box_gravity_only_3d//build/domain/domain.o ./run/examples/cosmo_box_gravity_only_3d//build/domain/domain_balance.o ./run/examples/cosmo_box_gravity_only_3d//build/domain/domain_box.o ./run/examples/cosmo_box_gravity_only_3d//build/domain/domain_counttogo.o ./run/examples/cosmo_box_gravity_only_3d//build/domain/domain_DC_update.o ./run/examples/cosmo_box_gravity_only_3d//build/domain/domain_exchange.o ./run/examples/cosmo_box_gravity_only_3d//build/domain/domain_rearrange.o ./run/examples/cosmo_box_gravity_only_3d//build/domain/domain_sort_kernels.o ./run/examples/cosmo_box_gravity_only_3d//build/domain/domain_toplevel.o ./run/examples/cosmo_box_gravity_only_3d//build/domain/domain_vars.o ./run/examples/cosmo_box_gravity_only_3d//build/domain/peano.o ./run/examples/cosmo_box_gravity_only_3d//build/gravity/accel.o ./run/examples/cosmo_box_gravity_only_3d//build/gravity/forcetree.o ./run/examples/cosmo_box_gravity_only_3d//build/gravity/forcetree_ewald.o ./run/examples/cosmo_box_gravity_only_3d//build/gravity/forcetree_optimizebalance.o ./run/examples/cosmo_box_gravity_only_3d//build/gravity/forcetree_walk.o ./run/examples/cosmo_box_gravity_only_3d//build/gravity/grav_external.o ./run/examples/cosmo_box_gravity_only_3d//build/gravity/grav_softening.o ./run/examples/cosmo_box_gravity_only_3d//build/gravity/gravdirect.o ./run/examples/cosmo_box_gravity_only_3d//build/gravity/gravtree.o ./run/examples/cosmo_box_gravity_only_3d//build/gravity/gravtree_forcetest.o ./run/examples/cosmo_box_gravity_only_3d//build/gravity/longrange.o ./run/examples/cosmo_box_gravity_only_3d//build/gravity/pm/pm_periodic2d.o ./run/examples/cosmo_box_gravity_only_3d//build/gravity/pm/pm_periodic.o ./run/examples/cosmo_box_gravity_only_3d//build/gravity/pm/pm_mpi_fft.o ./run/examples/cosmo_box_gravity_only_3d//build/gravity/pm/pm_nonperiodic.o ./run/examples/cosmo_box_gravity_only_3d//build/hydro/finite_volume_solver.o ./run/examples/cosmo_box_gravity_only_3d//build/hydro/gradients.o ./run/examples/cosmo_box_gravity_only_3d//build/hydro/riemann.o ./run/examples/cosmo_box_gravity_only_3d//build/hydro/riemann_hllc.o ./run/examples/cosmo_box_gravity_only_3d//build/hydro/riemann_hlld.o ./run/examples/cosmo_box_gravity_only_3d//build/hydro/scalars.o ./run/examples/cosmo_box_gravity_only_3d//build/hydro/update_primitive_variables.o ./run/examples/cosmo_box_gravity_only_3d//build/init/begrun.o ./run/examples/cosmo_box_gravity_only_3d//build/init/density.o ./run/examples/cosmo_box_gravity_only_3d//build/init/init.o ./run/examples/cosmo_box_gravity_only_3d//build/io/global.o ./run/examples/cosmo_box_gravity_only_3d//build/io/hdf5_util.o ./run/examples/cosmo_box_gravity_only_3d//build/io/io.o ./run/examples/cosmo_box_gravity_only_3d//build/io/io_fields.o ./run/examples/cosmo_box_gravity_only_3d//build/io/logs.o ./run/examples/cosmo_box_gravity_only_3d//build/io/parameters.o ./run/examples/cosmo_box_gravity_only_3d//build/io/read_ic.o ./run/examples/cosmo_box_gravity_only_3d//build/io/restart.o ./run/examples/cosmo_box_gravity_only_3d//build/main/allvars.o ./run/examples/cosmo_box_gravity_only_3d//build/main/main.o ./run/examples/cosmo_box_gravity_only_3d//build/main/run.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/criterion_derefinement.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/criterion_refinement.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/refinement.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/set_vertex_velocities.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_1d.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_1d_spherical.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_3d.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_check.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_derefinement.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_dynamic_update.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_exchange.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_ghost_search.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_gradients_lsf.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_gradients_onedims.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_refinement.o ./run/examples/cosmo_box_gravity_only_3d//build/mesh/voronoi/voronoi_utils.o ./run/examples/cosmo_box_gravity_only_3d//build/mpi_utils/checksummed_sendrecv.o ./run/examples/cosmo_box_gravity_only_3d//build/mpi_utils/hypercube_allgatherv.o ./run/examples/cosmo_box_gravity_only_3d//build/mpi_utils/mpi_util.o ./run/examples/cosmo_box_gravity_only_3d//build/mpi_utils/myalltoall.o ./run/examples/cosmo_box_gravity_only_3d//build/mpi_utils/sizelimited_sendrecv.o ./run/examples/cosmo_box_gravity_only_3d//build/mpi_utils/pinning.o ./run/examples/cosmo_box_gravity_only_3d//build/ngbtree/ngbtree.o ./run/examples/cosmo_box_gravity_only_3d//build/ngbtree/ngbtree_search.o ./run/examples/cosmo_box_gravity_only_3d//build/ngbtree/ngbtree_walk.o ./run/examples/cosmo_box_gravity_only_3d//build/star_formation/sfr_eEOS.o ./run/examples/cosmo_box_gravity_only_3d//build/star_formation/starformation.o ./run/examples/cosmo_box_gravity_only_3d//build/time_integration/darkenergy.o ./run/examples/cosmo_box_gravity_only_3d//build/time_integration/do_gravity_hydro.o ./run/examples/cosmo_box_gravity_only_3d//build/time_integration/driftfac.o ./run/examples/cosmo_box_gravity_only_3d//build/time_integration/predict.o ./run/examples/cosmo_box_gravity_only_3d//build/time_integration/timestep.o ./run/examples/cosmo_box_gravity_only_3d//build/time_integration/timestep_treebased.o ./run/examples/cosmo_box_gravity_only_3d//build/utils/allocate.o ./run/examples/cosmo_box_gravity_only_3d//build/utils/debug.o ./run/examples/cosmo_box_gravity_only_3d//build/utils/mpz_extension.o ./run/examples/cosmo_box_gravity_only_3d//build/utils/mymalloc.o ./run/examples/cosmo_box_gravity_only_3d//build/utils/parallel_sort.o ./run/examples/cosmo_box_gravity_only_3d//build/utils/system.o ./run/examples/cosmo_box_gravity_only_3d//build/fof/fof.o ./run/examples/cosmo_box_gravity_only_3d//build/fof/fof_distribute.o ./run/examples/cosmo_box_gravity_only_3d//build/fof/fof_findgroups.o ./run/examples/cosmo_box_gravity_only_3d//build/fof/fof_io.o ./run/examples/cosmo_box_gravity_only_3d//build/fof/fof_nearest.o ./run/examples/cosmo_box_gravity_only_3d//build/fof/fof_sort_kernels.o ./run/examples/cosmo_box_gravity_only_3d//build/fof/fof_vars.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_vars.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_serial.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_coll_tree.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_properties.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_so.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_distribute.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_collective.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_findlinkngb.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_nearesttwo.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_loctree.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_coll_domain.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_coll_treewalk.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_density.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_io.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_sort_kernels.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_reprocess.o ./run/examples/cosmo_box_gravity_only_3d//build/subfind/subfind_so_potegy.o ./run/examples/cosmo_box_gravity_only_3d//build/compile_time_info.o ./run/examples/cosmo_box_gravity_only_3d//build/compile_time_info_hdf5.o ./run/examples/cosmo_box_gravity_only_3d//build/version.o -lgmp -lm -lstdc++ -L/usr/lib/x86_64-linux-gnu/openmpi/lib/ -lmpi -L/usr/lib/x86_64-linux-gnu/hdf5/serial/ -lhdf5 -lz -lgsl -lgslcblas  -lfftw3  -o ./run/examples/cosmo_box_gravity_only_3d//Arepo
+
+   __    ____  ____  ____  _____
+  /__\  (  _ \( ___)(  _ \(  _  )
+ /(__)\  )   / )__)  )___/ )(_)(
+(__)(__)(_)\_)(____)(__)  (_____)
+
+
+-------------------------------------------------------------------------------------------------------------------------
+AvailMem:	 Largest =  244863.50 Mb (on task=   9), Smallest =  243852.43 Mb (on task=   0), Average =  244577.03 Mb
+Total Mem:	 Largest =  257504.57 Mb (on task=   0), Smallest =  257504.57 Mb (on task=   0), Average =  257504.57 Mb
+Committed_AS:	 Largest =   13652.14 Mb (on task=   0), Smallest =   12641.07 Mb (on task=   9), Average =   12927.54 Mb
+SwapTotal:	 Largest =       0.00 Mb (on task=   0), Smallest =       0.00 Mb (on task=   0), Average =       0.00 Mb
+SwapFree:	 Largest =       0.00 Mb (on task=   0), Smallest =       0.00 Mb (on task=   0), Average =       0.00 Mb
+AllocMem:	 Largest =   13652.14 Mb (on task=   0), Smallest =   12641.07 Mb (on task=   9), Average =   12927.54 Mb
+-------------------------------------------------------------------------------------------------------------------------
+Task=0 has the maximum commited memory and is host: exp-13-53
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is Arepo, version Arepo public 1.0.
+
+Running with 109 MPI tasks.
+
+Apparently we're using 1 compute nodes (we have a minimum of 109 MPI tasks per node, and a maximum of 109)
+
+Code was compiled with settings:
+
+        SELFGRAVITY
+        HIERARCHICAL_GRAVITY
+        CELL_CENTER_GRAVITY
+        ALLOW_DIRECT_SUMMATION
+        DIRECT_SUMMATION_THRESHOLD=500
+        NSOFTTYPES=2
+        MULTIPLE_NODE_SOFTENING
+        INDIVIDUAL_GRAVITY_SOFTENING=32
+        ADAPTIVE_HYDRO_SOFTENING
+        PMGRID=256
+        RCUT=5.0
+        TREE_BASED_TIMESTEPS
+        DOUBLEPRECISION=1
+        DOUBLEPRECISION_FFTW
+        OUTPUT_COORDINATES_IN_DOUBLEPRECISION
+        NGB_TREE_DOUBLEPRECISION
+        FOF
+        FOF_PRIMARY_LINK_TYPES=2
+        FOF_SECONDARY_LINK_TYPES=1+16+32
+        SUBFIND
+        SAVE_HSML_IN_SNAPSHOT
+        SUBFIND_CALC_MORE
+        SUBFIND_EXTENDED_PROPERTIES
+        PROCESS_TIMES_OF_OUTPUTLIST
+        REDUCE_FLUSH
+        HAVE_HDF5
+        DEBUG
+
+Obtaining parameters from file './param.txt':
+
+        InitCondFile                                      ./ics
+        OutputDir                                         ./output
+        SnapshotFileBase                                  snap
+        OutputListFilename                                ./output_list.txt
+        ICFormat                                          1
+        SnapFormat                                        3
+        TimeLimitCPU                                      93000
+        CpuTimeBetRestartFile                             12000
+        FlushCpuTimeDiff                                  120
+        ResubmitOn                                        0
+        ResubmitCommand                                   my-scriptfile
+        MaxMemSize                                        2500
+        TimeBegin                                         0.0078125
+        TimeMax                                           1
+        ComovingIntegrationOn                             1
+        PeriodicBoundariesOn                              1
+        CoolingOn                                         0
+        StarformationOn                                   0
+        Omega0                                            0.3089
+        OmegaLambda                                       0.6911
+        OmegaBaryon                                       0
+        HubbleParam                                       0.6774
+        BoxSize                                           50000
+        OutputListOn                                      1
+        TimeBetSnapshot                                   0
+        TimeOfFirstSnapshot                               0
+        TimeBetStatistics                                 0.01
+        NumFilesPerSnapshot                               1
+        NumFilesWrittenInParallel                         1
+        TypeOfTimestepCriterion                           0
+        ErrTolIntAccuracy                                 0.012
+        CourantFac                                        0.3
+        MaxSizeTimestep                                   0.005
+        MinSizeTimestep                                   2e-09
+        InitGasTemp                                       244.81
+        MinGasTemp                                        5
+        MinimumDensityOnStartUp                           1e-20
+        LimitUBelowThisDensity                            0
+        LimitUBelowCertainDensityToThisValue              0
+        MinEgySpec                                        0
+        TypeOfOpeningCriterion                            1
+        ErrTolTheta                                       0.7
+        ErrTolForceAcc                                    0.0025
+        MultipleDomains                                   4
+        TopNodeFactor                                     2.5
+        ActivePartFracForNewDomainDecomp                  0.01
+        DesNumNgb                                         64
+        MaxNumNgbDeviation                                4
+        UnitLength_in_cm                                  3.08568e+21
+        UnitMass_in_g                                     1.989e+43
+        UnitVelocity_in_cm_per_s                          100000
+        GravityConstantInternal                           0
+        SofteningComovingType0                            40
+        SofteningComovingType1                            40
+        SofteningMaxPhysType0                             20
+        SofteningMaxPhysType1                             20
+        GasSoftFactor                                     2.5
+        SofteningTypeOfPartType0                          0
+        SofteningTypeOfPartType1                          1
+        SofteningTypeOfPartType2                          1
+        SofteningTypeOfPartType3                          1
+        SofteningTypeOfPartType4                          1
+        SofteningTypeOfPartType5                          1
+        MinimumComovingHydroSoftening                     1
+        AdaptiveHydroSofteningSpacing                     1.2
+        CellShapingSpeed                                  0.5
+        CellShapingFactor                                 1
+        ErrTolThetaSubfind                                0.7
+        DesLinkNgb                                        20
+
+
+BEGRUN: found 2 times in output-list.
+On node 'exp-13-53', we have 109 MPI ranks and at most 257505 MB available. This is not enough space for MaxMemSize = 2500 MB
+TERMINATE: ******!!!!!******  Code termination on task=0, function check_maxmemsize_setting(), file src/utils/system.c, line 1137: Not enough memory error!
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+ERROR: test.sh:\t ./examples/cosmo_box_gravity_only_3d/ \t execution failed!
