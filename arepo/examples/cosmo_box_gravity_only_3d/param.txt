@@ -17,7 +17,7 @@ ResubmitOn                            0
 ResubmitCommand                       my-scriptfile
 
 %----- Memory alloction
-MaxMemSize                            2500
+MaxMemSize                            960000
 
 %---- Caracteristics of run
 TimeBegin                             0.0078125 % Begin of the simulation z=127
