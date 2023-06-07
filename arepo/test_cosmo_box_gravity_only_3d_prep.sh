@@ -7,6 +7,9 @@
 
 TEST="cosmo_box_gravity_only_3d"
 
+DIR="./examples/"${TEST}"/"
+RUNDIR="./run/examples/"${TEST}"/"
+
 ## clean up 
 rm -rf ./run
 
