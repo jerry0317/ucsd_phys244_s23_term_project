@@ -1,0 +1,1 @@
+srun --partition=compute --pty --account=csd759 --nodes=1 --ntasks-per-node=1 --cpus-per-task=128 --mem=256G -t 12:00:00 --wait=0 --export=ALL /bin/bash
