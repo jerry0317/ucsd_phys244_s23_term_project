@@ -41,7 +41,9 @@ do
   fi
 
   ## compile Arepo
-  make -j ${NUMBER_OF_TASKS} CONFIG=${RUNDIR}/Config_${NUM_PMGRID}.sh BUILD_DIR=${RUNDIR}/build EXEC=${RUNDIR}/Arepo
+  rm ${RUNDIR}/Config.sh
+  cp ${RUNDIR}/Config_${NUM_PMGRID}.sh ${RUNDIR}/Config.sh
+  make -j ${NUMBER_OF_TASKS} CONFIG=${RUNDIR}/Config.sh BUILD_DIR=${RUNDIR}/build EXEC=${RUNDIR}/Arepo
   ((return_value=$?))    ## get return value
   if [ $return_value != 0 ]    ## check return value
   then echo "ERROR: test.sh:\t" $DIR "\t make failed!"
