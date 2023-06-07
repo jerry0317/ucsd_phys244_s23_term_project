@@ -5,6 +5,9 @@ do
 for t in {1..128}
 do 
 	echo -n "$p,$t,"
+	# Do not count time for preparation
+  bash mpi_runtime_test_cosmo_box_gravity_only_3d_prep.sh > ../out_file_logs/06062023_mpirun_1/$p_$t.out 2>&1 
+  # Only count for MPI execution
 	/usr/bin/time -f "%e" bash -c "bash test_cosmo_box_gravity_only_3d_PMGRID.sh $p $t > ../out_file_logs/06062023_mpirun_1/$p_$t.out 2>&1"
 done
 done
