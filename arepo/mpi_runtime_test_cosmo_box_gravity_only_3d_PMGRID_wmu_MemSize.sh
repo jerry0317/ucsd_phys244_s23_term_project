@@ -6,6 +6,7 @@ do
 for t in 16 32 64
 do
 for m in 500 1000 1500 2000 2500 3000 3500 4000 4500 5000
+do
 	echo -n "$p,$t,$m,"
 	# Do not count time for preparation
   bash test_cosmo_box_gravity_only_3d_prep.sh > ${RUNDIR}/$p_$t_$m.out 2>&1 
