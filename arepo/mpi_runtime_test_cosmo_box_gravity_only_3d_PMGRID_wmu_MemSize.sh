@@ -9,9 +9,9 @@ for m in 500 1000 1500 2000 2500 3000 3500 4000 4500 5000
 do
 	echo -n "$p,$t,$m,"
 	# Do not count time for preparation
-  bash test_cosmo_box_gravity_only_3d_prep.sh > ${RUNDIR}/$p_$t_$m.out 2>&1 
+  bash test_cosmo_box_gravity_only_3d_prep.sh > ${RUNDIR}/${p}_${t}_${m}.out 2>&1 
   # Only count for MPI execution
-	/usr/bin/time -q -f "%e,%P,%M" bash -c "bash test_cosmo_box_gravity_only_3d_PMGRID_MemSize.sh $p $t $m > ${RUNDIR}/$p_$t_$m.out 2>&1" 
+	/usr/bin/time -q -f "%e,%P,%M" bash -c "bash test_cosmo_box_gravity_only_3d_PMGRID_MemSize.sh ${p} ${t} ${m} > ${RUNDIR}/${p}_${t}_${m}.out 2>&1" 
 done
 done
 done
