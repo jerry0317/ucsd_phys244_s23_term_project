@@ -30,7 +30,7 @@ exit $return_value
 fi
   
 ## change to RUNDIR in subshell and execute test simulation
-(cd ${RUNDIR} &&  mpiexec -np ${NUMBER_OF_TASKS} --oversubscribe AMDuProfCLI-bin collect --config tbp -o amduprof_out_$(date +"%Y_%m_%dT%H%M%S%_z") ./Arepo ./param.txt)
+(cd ${RUNDIR} &&  mpiexec -np ${NUMBER_OF_TASKS} --oversubscribe AMDuProfCLI-bin collect --config tbp --mpi -o amduprof_out_$(date +"%Y_%m_%dT%H%M%S%_z") ./Arepo ./param.txt)
 ((return_value=$?))    ## get return value
 if [ $return_value != 0 ]    ## check return value
 then echo "ERROR: test.sh:\t" $DIR "\t execution failed!"
