@@ -316,7 +316,7 @@ endif
 #combine compiler options#
 ##########################
 
-CFLAGS = $(OPTIMIZE) $(MPICH_INCL) $(HDF5_INCL) $(GSL_INCL) $(FFTW_INCL) $(HWLOC_INCL) -I$(BUILD_DIR)
+CFLAGS = $(OPTIMIZE) $(MPICH_INCL) $(HDF5_INCL) $(GSL_INCL) $(FFTW_INCL) $(HWLOC_INCL) -I$(BUILD_DIR) -g
 
 LIBS = $(GMP_LIB) $(MATH_LIB) $(MPICH_LIB) $(HDF5_LIB) $(GSL_LIB) $(FFTW_LIB) $(HWLOC_LIB)
 
